@@ -5,9 +5,10 @@ This may or may not be migrated to Google Collab.
 
 Here is some notes of commands I used to get a working environment.
 
+Link to [uv package manager](https://github.com/astral-sh/uv)
+
 ```
 pip install uv (install the best package manager/project and virtual environment manager, best as in my opinion)
 uv venv (create hidden .venv directory)
-uv pip install
 uv pip install scikit-learn (could add to pyproject.toml with `uv install x`)
 ```
